@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:background="#fff"
+    >
+        <RelativeLayout
+            android:background="#fff"
+            android:id="@+id/relative_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:id="@+id/reg_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:background="#fff"
+                android:layout_below="@id/reg_bg"
+                android:id="@+id/login_details"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:orientation="vertical"
+                >
+                <TextView
+
+                   android:padding="15dp"
+
+                    android:background="@drawable/spinnerbg"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+
+                    android:layout_marginBottom="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome Teacher"
+                    android:textStyle="bold"
+                    android:gravity=""/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Teacher Name"
+                        android:layout_marginTop="20dp"/>
+                    <EditText
+                        android:id="@+id/et_teachername"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Teacher Name"
+                        android:textColorHint="@color/dark_gray"
+                        android:inputType="text"
+                        android:paddingBottom="15dp"
+                        android:layout_marginBottom="3dp"
+                        android:textSize="@dimen/login_txt_size"
+
+                        android:visibility="visible"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Grade"
+                        android:layout_marginTop="5dp"/>
+                    <EditText
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/et_grade"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Grade"
+                        android:textColorHint="@color/dark_gray"
+                        android:inputType="text"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        android:textSize="@dimen/login_txt_size"
+                        android:visibility="visible"
+                        android:focusable="true"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Handout File"
+                        android:layout_marginTop="5dp"/>
+                    <EditText
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/et_handoutile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Handout Files"
+                        android:textColorHint="@color/dark_gray"
+                        android:inputType="text"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        android:textSize="@dimen/login_txt_size"
+                        android:visibility="visible" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/btn_upload"
+                        android:background="@drawable/spinnerbg"
+                        android:layout_gravity="start"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Upload File"
+                        android:layout_marginTop="5dp"/>
+                    <EditText
+                        android:id="@+id/et_filepath"
+                        android:gravity="start"
+                        android:layout_marginBottom="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Upload File Name"
+                        android:textColorHint="@color/dark_gray"
+                        android:inputType="text"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        android:textSize="@dimen/login_txt_size"
+                        android:visibility="visible" />
+                </LinearLayout>
+                <Button
+                    android:background="@drawable/spinnerbg"
+                    android:id="@+id/submit_teacher"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Submit Details"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:padding="3dp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:background="@drawable/bg"
+    >
+    <ScrollView
+        android:background="@color/white"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:background="@color/white"
+                android:id="@+id/reg_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            </LinearLayout>
+            <LinearLayout
+                android:background="#fff"
+                android:layout_below="@id/reg_bg"
+                android:id="@+id/login_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:orientation="vertical"
+                >
+                <TextView
+
+                    android:background="#369AAC"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                   android:padding="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome Home Buddy"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Today Date"
+                        android:layout_marginTop="20dp"/>
+                    <EditText
+                        android:id="@+id/et_todaydate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:drawableRight="@drawable/calendar"
+                        android:textColorHint="@color/dark_gray"
+                        android:inputType="text"
+                        android:paddingBottom="15dp"
+                        android:layout_marginBottom="3dp"
+                        android:textSize="@dimen/login_txt_size"
+
+                        android:visibility="visible"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Grade Element"
+                        android:layout_marginTop="20dp"/>
+                    <EditText
+                        android:id="@+id/et_grade"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Grade/Element"
+                        android:textColorHint="@color/dark_gray"
+                        android:inputType="text"
+                        android:paddingBottom="15dp"
+                        android:layout_marginBottom="3dp"
+                        android:textSize="@dimen/login_txt_size"
+
+                        android:visibility="visible"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Subject"
+                        android:layout_marginTop="20dp"/>
+                    <EditText
+                        android:id="@+id/et_subject"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Subject"
+                        android:textColorHint="@color/dark_gray"
+                        android:inputType="text"
+                        android:paddingBottom="15dp"
+                        android:layout_marginBottom="3dp"
+                        android:textSize="@dimen/login_txt_size"
+
+                        android:visibility="visible"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Teacher"
+                        android:layout_marginTop="5dp"/>
+                    <EditText
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/et_teacher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Teacher"
+                        android:textColorHint="@color/dark_gray"
+                        android:inputType="text"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        android:textSize="@dimen/login_txt_size"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quiz Today"
+                        android:layout_marginTop="5dp"/>
+                    <RadioGroup
+                        android:orientation="horizontal"
+                        android:id="@+id/radioquiz"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:paddingLeft="10dp"
+
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/colorHintEdit"
+                        android:textSize="14sp"
+                        android:paddingRight="10dp"
+
+                        android:singleLine="true"
+                        android:inputType="textCapCharacters"
+                        android:imeOptions="actionDone">
+
+                        <RadioButton
+                            android:checked="true"
+                            android:id="@+id/rdyes"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/colorHintEdit"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:text="Yes"
+                            android:gravity="center|left"
+                            android:buttonTint="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <RadioButton
+                            android:buttonTint="@color/black"
+                            android:gravity="center|left"
+                            android:id="@+id/rdno"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/colorHintEdit"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:text="No"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </RadioGroup>
+                </LinearLayout>
+
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:orientation="vertical">-->
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Feature Quiz/Test Date"-->
+                        <!--android:layout_marginTop="5dp"/>-->
+                    <!--<EditText-->
+                        <!--android:layout_marginBottom="3dp"-->
+                        <!--android:id="@+id/et_testName"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:hint="Test Date"-->
+                        <!--android:textColorHint="@color/dark_gray"-->
+                        <!--android:inputType="text"-->
+                        <!--android:paddingTop="10dp"-->
+                        <!--android:paddingBottom="15dp"-->
+                        <!--android:singleLine="true"-->
+                        <!--android:textColor="@color/black"-->
+                        <!--android:textCursorDrawable="@drawable/edit_cursor"-->
+                        <!--android:textSize="@dimen/login_txt_size"-->
+                        <!--android:visibility="visible"-->
+                        <!--android:focusable="true"/>-->
+                <!--</LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Feature Quiz/Test Date"
+                        android:layout_marginTop="5dp"/>
+                    <EditText
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/et_featureTest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Future Test"
+                        android:textColorHint="@color/dark_gray"
+                        android:inputType="text"
+                        android:editable="false"
+                        android:drawableRight="@drawable/calendar"
+                        android:clickable="true"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        android:textSize="@dimen/login_txt_size"
+                        android:visibility="visible" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Worked On Today"
+                        android:layout_marginTop="5dp"/>
+                    <EditText
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/et_workedOn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/dark_gray"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        android:paddingTop="10dp"
+                        android:hint="worked on today"
+
+                        android:clickable="true"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/login_txt_size"
+                        android:visibility="visible" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Handouts"
+                        android:layout_marginTop="5dp"/>
+                    <EditText
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/et_handouts"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="handout"
+                        android:textColorHint="@color/dark_gray"
+                        android:inputType="text"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        android:textSize="@dimen/login_txt_size"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Assignment"
+                        android:layout_marginTop="5dp"/>
+                    <EditText
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/et_assignDate"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Assignment"
+                        android:textColorHint="@color/dark_gray"
+                        android:paddingTop="10dp"
+
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        android:textSize="@dimen/login_txt_size"
+                        android:visibility="visible" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Due Date"
+                        android:layout_marginTop="5dp"/>
+                    <EditText
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/et_dueDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Due Date"
+                        android:inputType="date"
+                        android:textColorHint="@color/dark_gray"
+                        android:paddingTop="10dp"
+                        android:editable="false"
+                        android:clickable="true"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:drawableRight="@drawable/calendar"
+                        android:textCursorDrawable="@drawable/edit_cursor"
+                        android:textSize="@dimen/login_txt_size"
+                        android:visibility="visible" />
+                </LinearLayout>
+                <Button
+                    android:background="@drawable/spinnerbg"
+                    android:id="@+id/submit_buddy"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Submit Details"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:padding="3dp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

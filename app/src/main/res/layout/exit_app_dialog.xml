@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/cgreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="3dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/txtdialogtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel Form"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:singleLine="true"
+            android:gravity="center"
+            android:visibility="gone"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/txtdialogMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="Do you want to Exit?"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:padding="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            android:paddingBottom="5dp"
+            android:background="@android:color/transparent"
+            >
+
+            <Button
+                android:id="@+id/btnYes"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="2dp"
+                android:text="Yes"
+                android:background="@color/cgreen"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                />
+
+            <Button
+                android:id="@+id/btnNo"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0"
+                android:padding="2dp"
+                android:background="@color/cgreen"
+                android:text="No"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

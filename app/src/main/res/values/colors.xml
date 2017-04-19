@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dark_gray">#b5b5b5</color>
+    <color name="dark_blue">#2c5871</color>
+    <color name="darker_blue">#4A7CB6</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ee3349</color>
+    <color name="notification">#e02209</color>
+    <color name="pink">#bb0150</color>
+    <color name="light_maroon">#8C0000</color>
+    <color name="maroon">#48001f</color>
+    <color name="brown">#F0ECE8</color>
+    <color name="ColorPrimary">#000000</color>
+    <color name="ColorPrimaryDark">#000000</color>
+    <color name="my_profile_text">#585858</color>
+    <color name="powered_by">#173e52</color>
+    <color name="blue">#053589</color>
+    <color name="grey">#A9A9A9</color>
+    <color name="dim_grey">#696969</color>
+    <color name="white_grey">#838383</color>
+    <color name="darker_gray">#393939</color>
+    <color name="light_grey">#EDEDEE</color>
+    <color name="light_blue">#014287</color>
+    <color name="light_green">#00A351</color>
+    <color name="parrot">#8CC744</color>
+    <color name="purple">#3C2EC2</color>
+    <color name="navy_blue">#173C70</color>
+    <color name="darker_navy_blue">#3A4478</color>
+    <color name="dark_grey">#9F9F9F</color>
+    <color name="dull_grey">#E9ECF1</color>
+    <color name="sky_blue">#70D0F6</color>
+    <color name="light_black">#2B2B2B</color>
+    <color name="purpleblue">#004E9E</color>
+    <color name="lightblue">#038ECB</color>
+    <color name="dark_purple">#292A8D</color>
+    <color name="dark_pink">#EB1459</color>
+    <color name="light_red">#F02C2C</color>
+    <color name="orange">#f26426</color>
+    <color name="dark_brown">#A9671F</color>
+    <color name="cgreen">#369AAC</color>
+    <color name="maroon_brown">#BF413F</color>
+    <color name="brinjal">#7E6082</color>
+    <color name="grey_black">#282421</color>
+    <color name="parrot_green">#00A351</color>
+    <color name="orange_yellow">#F69423</color>
+    <color name="dark_red">#CE0902</color>
+    <color name="dark_sky_blue">#006DB2</color>
+    <color name="dull_sky_blue">#0E55A6</color>
+    <color name="dull_purple">#7069E3</color>
+    <color name="light_sky_blue">#217EEC</color>>r>
+
+
+
+    <color name="color_background">#FEBB62</color>
+    <color name="color_ButtonBottom">#FFA52D</color>
+    <color name="color_ButtonCenter">#F4A33A</color>
+
+    <color name="font_color">#FFFFFF</color>
+    <color name="facebook">#3862B6</color>
+
+    <color name="colorButton">#FFA52D</color>
+    <color name="colorButtonText">#FFFFFF</color>
+    <color name="colorHintEdit">#FEE6C5</color>
+
+    <color name="colorTabs">#EEEEEE</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>
